@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/whalecafesample.png" />
+    <title>お問い合わせ ｜ Kujira Cafe</title>
+    <link rel="stylesheet" href="css/style.css">     
+</head>
+<body id="top">
+    <!--ヘッダー-->
+    <header class="header">
+            <div class="logo">
+             <a href="index.html"> <img src="images/logo.svg" alt="kUJIRA CAFE"></a>
+             <p class="notes">＊このサイトはwebサイト作成練習用の架空のcafeサイトです＊</p> 
+            </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">ホーム<br>
+                home</a></li>
+                <li><a href="index.html#news">お知らせ<br>
+                news</a></li>
+                <li><a href="index.html#shop">店舗案内<br>
+                shop info</a></li>
+                <li><a href="access.html">アクセス<br>
+                access</a></li>
+                <li><a href="menu.html">メニュー<br>
+                menu</a></li>
+                <li><a href="contact.html">お問い合わせ<br>
+                contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--ヘッダーここまで-->    
+    <h1 class="hero contact">お問い合わせ</h1>
+    <!--メイン-->
+    <main>
+        <form action="result.html">
+  <p>
+    <label for="kind">お問い合わせの種類</label><br>
+    <select name="kind" id="kind">
+      <option value="1">ご予約</option>
+      <option value="2">イベントに関するお問い合わせ</option>
+      <option value="3">その他</option>
+    </select>
+  </p>
+
+  <p>
+    初めてのご来店ですか？<br>
+    <label><input type="radio" name="first" value="yes" checked>はい</label><br>
+    <label><input type="radio" name="first" value="no">いいえ</label>
+  </p>
+
+  <p>
+    当カフェをお知りになったきっかけは？<br>
+    <label><input type="checkbox" name="how" value="friend">知り合いの紹介で</label><br>
+    <label><input type="checkbox" name="how" value="magazine">SNS、Webサイト、雑誌などを見て</label>
+  </p>
+
+  <p>
+    <label for="subject">お問い合わせの件名</label><br>
+    <input type="text" name="subject" placeholder="タイトル" id="subject">
+  </p>
+
+  <p>
+    <label for="message">お問い合わせの具体的な内容</label><br>
+    <textarea name="message" id="message"></textarea>
+  </p>
+
+  <p class="submit">
+    <input type="submit" value="送信">
+  </p>
+</form>
+        <div class="logo-whale"><img src="images/logo-whale.svg" alt="Whale Logo" id="whaleLogo"></div>
+        <audio id="bgm" src="kujira.mp3"></audio>
+        <script src="script.js"></script>
+    </main>
+    <!--メインここまで-->
+    <!--フッダー-->
+    <footer>
+        <div class="gotop">
+            <a href="#top"><img src="images/gotop.svg" alt="ページトップへ戻る"></a>
+        </div>
+        <p class="copyright">&copy; 2025 KUJIRA CAFE</p>
+        <nav class="footer-nav">
+            <p>サイトマップ</p>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="index.html#news">news</a></li>
+                <li><a href="index.html#shop">shop info</a></li>
+                <li><a href="access.html">access</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+    </footer>
+<!--フッダーここまで-->
+</body>
+</html>
