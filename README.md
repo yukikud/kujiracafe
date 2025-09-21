@@ -1,5 +1,7 @@
 # Kujiracafe
 
+[![ロゴ画像](images/logo-whale.svg)](https://yukikud.github.io/kujiracafe/)
+
 このリポジトリは、Studio947著『スラスラわかるHTML＆CSSのきほん』を参考に、Yukiが学習を通じて制作しました。  
 季節の焼き菓子と美味しいコーヒーが売りの、架空のカフェサイトです。  
 一部アレンジを加え、クジラのロゴが泳ぎ、クリックすると音楽が再生される演出を追加しています。
