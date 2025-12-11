@@ -117,12 +117,32 @@ main h2 {
     background-repeat: repeat-x;/* 繰り返す */
 }
 .footer-nav {
-    color: #F07D34;
+    color: #f0f0f0;
     padding-top: 50px;
     padding-left: 50px;
     padding-bottom: 10px;
     background-color: #253958;
-    text-align: left;
+}
+    
+.footer-nav ul{
+    color:#f0f0f0;
+    list-style-type: "★";
+    display: flex;
+    justify-content: centerleft;
+    gap: 70px;
+}
+
+.footer-nav a:link {
+    color: #f0f0f0;
+}
+.footer-nav a:visited {
+    color: #f0f0f0;
+}
+.footer-nav a:hover {
+    text-decoration: none;
+}
+.footer-nav a:active {
+    text-decoration: none;
 }
 
 @keyframes swim {
